@@ -1,0 +1,53 @@
+.form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Contact{
+    height: 50%;
+    padding: 85px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Marker Felt, fantasy;
+}   
+
+label, input, textarea {
+    text-align: left;
+    margin: 10px 20px;
+    padding:10px 10px;
+    width: 95%;
+    font-family: Optima, sans-serif;
+    font-size: 15px;
+}
+
+label {
+    text-transform: uppercase;
+    width: 100%;
+    color: #777777;
+    font-size: 20px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.button {
+    float: right;
+    border: 12px;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #ffb3b3;
+    font-family: Optima, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.button:hover {
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+    transform: translateY(4px);

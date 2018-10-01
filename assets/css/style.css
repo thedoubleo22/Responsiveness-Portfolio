@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+
+body {
+    font-family: Optima, sans-serif;
+    background-image: url("../images/memphis-colorful.png");
+    
+ 
+  
+    
+}
+ 
+
+.nav{
+    float:left;
+    padding: 20px;
+    margin-left:10px;
+    width: 305px;
+    box-align: center;
+    background-color: #ffb3b3
+}
+
+.clearfix{
+    clear: both;
+}
+
+.h2{
+    height: 50%;
+    padding: 85px;
+    text-align:center;
+    font-size: 50px;
+    font-family: Marker Felt, fantasy;
+    font-weight:bold; 
+
+}
+
+.img {
+  float:left;
+  display: inline-block;
+  padding:20px;
+  clear:both;
+  width: 300px;
+  height:75%;
+ 
+   
+}
+
+.main{
+    display: inline-block;
+    padding:40px;
+    clear: both;
+    width:450px;
+    height: 75%;
+    background-color: #f2f2f2;
+    border: 10px solid #ffb3b3
+	
+}
+    
+footer{
+
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: #ffb3b3;
+    border-top: 10px solid #d8f0f3;
+    text-align: center;
+    clear:both;
+}
